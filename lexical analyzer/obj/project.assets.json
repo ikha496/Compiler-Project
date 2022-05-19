@@ -8635,23 +8635,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shere\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\asemg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shere\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
+      "projectUniqueName": "C:\\Users\\asemg\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
       "projectName": "lexical analyzer",
-      "projectPath": "C:\\Users\\shere\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
-      "packagesPath": "C:\\Users\\shere\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shere\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\obj\\",
+      "projectPath": "C:\\Users\\asemg\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
+      "packagesPath": "C:\\Users\\asemg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asemg\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\shere\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asemg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8700,7 +8696,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
