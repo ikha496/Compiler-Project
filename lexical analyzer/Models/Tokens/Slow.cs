@@ -1,11 +1,11 @@
 ﻿using System;
 
 namespace Compiler-Project.Models.Tokens{
-    public class SIow
-    {
-        public string tokenName ="SIow";
+public class SIow
+{
+    public string tokenName ="SIow";
 
-        private List<char> characters = new List<char> { 'S', 'I', 'o', 'w' };
+    private List<char> characters = new List<char> { 'S', 'I', 'o', 'w' };
     public bool isValid(string word, int stateNumber)
     {
         if (word.Length != characters.Count)

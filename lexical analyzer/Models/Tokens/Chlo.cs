@@ -1,11 +1,10 @@
 ﻿using System;
 
 namespace Compiler-Project.Models.Tokens{
-    public class Chlo
+public class Chlo
     {
-        public string tokenName ="Chlo";
-
-        private List<char> characters = new List<char> { 'C', 'h', 'l', '' };
+    public string tokenName ="Chlo";
+    private List<char> characters = new List<char> { 'C', 'h', 'l', 'o' };
     public bool isValid(string word, int stateNumber)
     {
         if (word.Length != characters.Count)
@@ -28,5 +27,5 @@ namespace Compiler-Project.Models.Tokens{
         CompilerManager.instance.validToken(tokenName, word);
         return true;
     }
-}
+  }
 }
