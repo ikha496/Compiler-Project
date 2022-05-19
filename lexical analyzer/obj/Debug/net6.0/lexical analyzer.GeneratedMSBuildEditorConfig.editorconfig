@@ -8,41 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lexical_analyzer
 build_property.RootNamespace = lexical_analyzer
-build_property.ProjectDir = D:\Faculty\lvl 3\semester 6\compiler\Compiler-Project\lexical analyzer\
+build_property.ProjectDir = C:\Users\asemg\Documents\GitHub\Compiler-Project\lexical analyzer\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Faculty\lvl 3\semester 6\compiler\Compiler-Project\lexical analyzer
+build_property.MSBuildProjectDirectory = C:\Users\asemg\Documents\GitHub\Compiler-Project\lexical analyzer
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Faculty/lvl 3/semester 6/compiler/Compiler-Project/lexical analyzer/Views/Error.cshtml]
+[C:/Users/asemg/Documents/GitHub/Compiler-Project/lexical analyzer/Views/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculty/lvl 3/semester 6/compiler/Compiler-Project/lexical analyzer/Views/Home/Index.cshtml]
+[C:/Users/asemg/Documents/GitHub/Compiler-Project/lexical analyzer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculty/lvl 3/semester 6/compiler/Compiler-Project/lexical analyzer/Views/Index.cshtml]
+[C:/Users/asemg/Documents/GitHub/Compiler-Project/lexical analyzer/Views/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculty/lvl 3/semester 6/compiler/Compiler-Project/lexical analyzer/Views/Privacy.cshtml]
+[C:/Users/asemg/Documents/GitHub/Compiler-Project/lexical analyzer/Views/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculty/lvl 3/semester 6/compiler/Compiler-Project/lexical analyzer/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/asemg/Documents/GitHub/Compiler-Project/lexical analyzer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculty/lvl 3/semester 6/compiler/Compiler-Project/lexical analyzer/Views/_ViewImports.cshtml]
+[C:/Users/asemg/Documents/GitHub/Compiler-Project/lexical analyzer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculty/lvl 3/semester 6/compiler/Compiler-Project/lexical analyzer/Views/_ViewStart.cshtml]
+[C:/Users/asemg/Documents/GitHub/Compiler-Project/lexical analyzer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculty/lvl 3/semester 6/compiler/Compiler-Project/lexical analyzer/Views/Shared/_Layout.cshtml]
+[C:/Users/asemg/Documents/GitHub/Compiler-Project/lexical analyzer/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qxbgiqzubw
