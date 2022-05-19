@@ -1,4 +1,4 @@
-﻿namespace lexical_analyzer.Models.Tokens
+﻿namespace Compiler-Project.Models.Tokens
 {
     public class Braces
     {

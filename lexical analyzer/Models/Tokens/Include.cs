@@ -1,4 +1,6 @@
-﻿namespace lexical_analyzer.Models.Tokens
+﻿using System;
+
+namespace Compiler-Project.Models.Tokens
 {
     public class Include
     {
