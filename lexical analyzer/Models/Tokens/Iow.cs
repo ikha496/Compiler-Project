@@ -1,4 +1,4 @@
-﻿namespace Compiler-Project.Models
+﻿namespace lexical_analyzer.Models.Tokens
 {
     public class Iow
     {

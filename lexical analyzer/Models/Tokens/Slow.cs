@@ -1,6 +1,5 @@
-﻿using System;
-
-namespace Compiler-Project.Models.Tokens{
+﻿namespace lexical_analyzer.Models.Tokens
+{
 public class SIow
 {
     public string tokenName ="SIow";
