@@ -2,14 +2,14 @@
 {
     public class Scanner
     {
-        CompilerManager compilerManager = new CompilerManager();
+        CompilerController compilerController = new CompilerController();
         public string codeFile { get; set; }
         public void initScanner()
         {
             codeFile = codeFile.Insert(codeFile.Length, " ");
-            compilerManager.Awake();
-            compilerManager.resetState();
-            compilerManager.codeFile = codeFile;
+            compilerController.Awake();
+            compilerController.resetState();
+            compilerController.codeFile = codeFile;
         }
         public void Scan()
         {
