@@ -7,16 +7,16 @@ namespace Compiler-Project.Models.Tokens
         public static string tokenName = "If";
 
         private List<char> characters = new List<char> { 'I', 'f' };
-        public bool validate(string word, int stateNumber)
+        public bool validate(string keyword, int stateNumber)
         {
-            if (word.Length != characters.Count)
+            if (keyword.Length != characters.Count)
             {
                 CompilerManager.instance.setState(stateNumber);
                 return false;
             }
-            for (int i = 0; i < word.Length; i++)
+            for (int i = 0; i < keyword.Length; i++)
             {
-                if (word[i] == characters[i])
+                if (keyword[i] == characters[i])
                 {
                     CompilerManager.instance.state++;
                 }
@@ -26,7 +26,7 @@ namespace Compiler-Project.Models.Tokens
                     return false;
                 }
             }
-            CompilerManager.instance.validToken(tokenName, word);
+            CompilerManager.instance.validToken(tokenName, keyword);
             return true;
         }
     }

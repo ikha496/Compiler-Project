@@ -6,16 +6,16 @@ public class SIow
     public string tokenName ="SIow";
 
     private List<char> characters = new List<char> { 'S', 'I', 'o', 'w' };
-    public bool isValid(string word, int stateNumber)
+    public bool isValid(string keyword, int stateNumber)
     {
-        if (word.Length != characters.Count)
+        if (keyword.Length != characters.Count)
         {
             CompilerManager.instance.setState(stateNumber);
             return false;
         }
-        for (int i = 0; i < word.Length; i++)
+        for (int i = 0; i < keyword.Length; i++)
         {
-            if (word[i] == characters[i])
+            if (keyword[i] == characters[i])
             {
                 CompilerManager.instance.state++;
             }
@@ -25,7 +25,7 @@ public class SIow
                 return false;
             }
         }
-        CompilerManager.instance.validToken(tokenName, word);
+        CompilerManager.instance.validToken(tokenName, keyword);
         return true;
     }
 }

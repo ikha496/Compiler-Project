@@ -5,11 +5,11 @@
         public string tokenName = "Braces";
 
         private List<char> characters = new List<char> { '{', '}', '[', ']' };
-        public bool isValid(char word, int stateNumber)
+        public bool isValid(char keyword, int stateNumber)
         {
-            if (characters.Contains(word))
+            if (characters.Contains(keyword))
             {
-                CompilerManager.instance.validToken(tokenName, word.ToString());
+                CompilerManager.instance.validToken(tokenName, keyword.ToString());
                 return true;
             }
             CompilerManager.instance.setState(stateNumber);

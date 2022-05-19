@@ -4,16 +4,16 @@
     {
     public string tokenName = "Chain";
     private List<char> characters = new List<char> { 'C', 'h', 'a', 'i','n' };
-    public bool isValid(string word, int stateNumber)
+    public bool isValid(string keyword, int stateNumber)
     {
-        if (word.Length != characters.Count)
+        if (keyword.Length != characters.Count)
         {
             CompilerManager.instance.setState(stateNumber);
             return false;
         }
-        for (int i = 0; i < word.Length; i++)
+        for (int i = 0; i < keyword.Length; i++)
         {
-            if (word[i] == characters[i])
+            if (keyword[i] == characters[i])
             {
                 CompilerManager.instance.state++;
             }
@@ -23,7 +23,7 @@
                 return false;
             }
         }
-        CompilerManager.instance.validToken(tokenName, word);
+        CompilerManager.instance.validToken(tokenName, keyword);
         return true;
     }
 }
