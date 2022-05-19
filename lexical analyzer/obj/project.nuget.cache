@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zKdmcXlH/ENFQEueNWhLCOOKCaPEgd0uIm9l619lQQYVMOiX6o5QUMJiHhj5lI2ulFTgocVfBeuBlWxH5QguXw==",
+  "dgSpecHash": "to8w6jMUcURvlKblVP3sEGZbGro33fTcN1wYPmAJwJU21GlTb57FY4jlQXMRn6Nst7sdkWjiFbZXCeuatBXSPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Osama Ali\\Desktop\\lexical analyzer\\lexical analyzer.csproj",
+  "projectFilePath": "C:\\Users\\Osama Ali\\Desktop\\compiler\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
