@@ -18,6 +18,13 @@ namespace lexical_analyzer.Controllers
         {
             return View();
         }
+
+        public IActionResult Type() 
+        {
+
+           return View();
+        }
+
         [HttpPost]
         public IActionResult Index(ReadFile readFile)
         {

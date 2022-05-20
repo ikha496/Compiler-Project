@@ -230,3 +230,14 @@ C:\Users\Osama Ali\Desktop\lexical analyzer\obj\Debug\net6.0\refint\lexical anal
 C:\Users\Osama Ali\Desktop\lexical analyzer\obj\Debug\net6.0\lexical analyzer.pdb
 C:\Users\Osama Ali\Desktop\lexical analyzer\obj\Debug\net6.0\lexical analyzer.genruntimeconfig.cache
 C:\Users\Osama Ali\Desktop\lexical analyzer\obj\Debug\net6.0\ref\lexical analyzer.dll
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.csproj.AssemblyReference.cache
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.AssemblyInfoInputs.cache
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.AssemblyInfo.cs
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.csproj.CoreCompileInputs.cache
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.RazorAssemblyInfo.cache
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.RazorAssemblyInfo.cs
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.dll
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\refint\lexical analyzer.dll
+C:\Users\Osama Ali\Desktop\compiler\Compiler-Project\lexical analyzer\obj\Debug\net6.0\lexical analyzer.pdb

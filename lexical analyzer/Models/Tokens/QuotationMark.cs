@@ -5,7 +5,7 @@
         public static string tokenName = "quotation";
         private List<char> quotions  = new List<char> { '\'', '\"' };
 
-        public bool isValid(string keyWord, int stateNumber)
+        public bool isValid(char keyWord, int stateNumber)
         {
             for (int i = 0; i < keyWord.Length; i++)
             {
