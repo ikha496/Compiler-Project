@@ -4,7 +4,8 @@ namespace lexical_analyzer.Models
 {
     public class Scanner
     {
-        CompilerManager compilerManager = new CompilerManager();
+        //public CompilerManager compilerManager { get; set; }
+        public CompilerManager compilerManager = new CompilerManager();
 
         Chain chain = new Chain();
         Chlo chlo = new Chlo();
@@ -97,14 +98,14 @@ namespace lexical_analyzer.Models
                             break;
                         case '\'':  
                             CompilerManager.instance.setState(120);
-                            quotationMark.isValid(word[0], 120);    //char function string implemention
+                            quotationMark.isValid(word[0], 120);    
                             break;
                         case '\"':
                             CompilerManager.instance.setState(121);
                             quotationMark.isValid(word[0], 120);
                             break;
-                        case '.':                                    //doesn'tt have a state
-                            CompilerManager.instance.setState(123);
+                        case '.':                                    
+                            CompilerManager.instance.setState(91);
                             break;
                         case '+':
                             CompilerManager.instance.setState(90);
@@ -166,7 +167,7 @@ namespace lexical_analyzer.Models
                             CompilerManager.instance.setState(72);
                             relationalOperators.isValid(word, 72);
                             break;
-                        case ';':                                       //doesn'tt have a state
+                        case ';':                                       //doesn't have a state
                             CompilerManager.instance.setState(144);
                             CompilerManager.instance.validToken(word, "Semi Coln");
                             break;
@@ -182,7 +183,6 @@ namespace lexical_analyzer.Models
                     compilerManager.isIdintfire = true;
                     word = "";
                 }
-
             }
         }  
     }

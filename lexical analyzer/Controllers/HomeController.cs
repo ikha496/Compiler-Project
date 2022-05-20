@@ -2,6 +2,7 @@
 using lexical_analyzer.Models;
 using System.Diagnostics;
 using Microsoft.AspNetCore.SignalR;
+using System.IO;
 
 
 namespace lexical_analyzer.Controllers
@@ -21,19 +22,39 @@ namespace lexical_analyzer.Controllers
 
         public IActionResult Type() 
         {
-
-           return View();
+            ReadFile read = new ReadFile();
+            ViewBag.result = new string[] { " " };
+            return View(read);
         }
 
         [HttpPost]
-        public IActionResult Index(ReadFile readFile)
+        public IActionResult Type(ReadFile readFile)
         {
             Scanner scanner = new Scanner();
             scanner.codeFile = readFile.FileContent;
             scanner.initScanner();
             scanner.Scan();
+            if (scanner.compilerManager.scannerMessages != null) 
+            {
+                ViewBag.result = scanner.compilerManager.scannerMessages;
+            }
+            else
+            {
+                ViewBag.result = new string[] {" "};
+            }
             return View(readFile);
         }
+
+        /*[HttpPost]
+        public IActionResult ParsingFile(File file) {
+            ReadFile read = new ReadFile();
+            System.IO.Path.GetDirectoryName(file);
+            read.FileContent = System.IO.File.ReadAllText(file);
+
+            return RedirectToAction("Type","Home");
+        }*/
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
