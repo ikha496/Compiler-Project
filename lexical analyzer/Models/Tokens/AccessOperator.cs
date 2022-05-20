@@ -6,7 +6,7 @@
 
         public bool isValid(string keyWord, int stateNumber)
         {
-            if (keyWord.Length == 2 && keyWord[0] == '-' && keyWord[2] == '>')
+            if (keyWord.Length == 2 && keyWord[0] == '-' && keyWord[1] == '>')
             {
                 CompilerManager.instance.validToken(tokenName, keyWord);
                 return true;

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Osama Ali\\Desktop\\compiler\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj": {}
+    "C:\\Users\\asemg\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Osama Ali\\Desktop\\compiler\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj": {
+    "C:\\Users\\asemg\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Osama Ali\\Desktop\\compiler\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
+        "projectUniqueName": "C:\\Users\\asemg\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
         "projectName": "lexical analyzer",
-        "projectPath": "C:\\Users\\Osama Ali\\Desktop\\compiler\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
-        "packagesPath": "C:\\Users\\Osama Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Osama Ali\\Desktop\\compiler\\Compiler-Project\\lexical analyzer\\obj\\",
+        "projectPath": "C:\\Users\\asemg\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\lexical analyzer.csproj",
+        "packagesPath": "C:\\Users\\asemg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asemg\\Documents\\GitHub\\Compiler-Project\\lexical analyzer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Osama Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asemg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

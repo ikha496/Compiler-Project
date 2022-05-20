@@ -3,7 +3,6 @@
     public class Braces
     {
         public string tokenName = "Braces";
-
         private List<char> characters = new List<char> { '{', '}', '[', ']' };
         public bool isValid(char keyword, int stateNumber)
         {

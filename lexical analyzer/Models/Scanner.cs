@@ -6,7 +6,8 @@ namespace lexical_analyzer.Models
     {
         //public CompilerManager compilerManager { get; set; }
         public CompilerManager compilerManager = new CompilerManager();
-
+        int errorCounter = 0;
+        string comment = "";
         Chain chain = new Chain();
         Chlo chlo = new Chlo();
         //-------------------------------
@@ -161,11 +162,51 @@ namespace lexical_analyzer.Models
                             break;
                         case '=':
                             CompilerManager.instance.setState(84);
-                            relationalOperators.isValid(word, 84);
+                            assignmentOperator.isValid(word, 84);
                             break;
                         case '!':
                             CompilerManager.instance.setState(72);
                             relationalOperators.isValid(word, 72);
+                            break;
+                        case '0':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '1':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '2':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '3':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '4':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '5':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '6':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '7':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '8':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
+                            break;
+                        case '9':
+                            CompilerManager.instance.setState(2);
+                            constants.isValid(word, 2);
                             break;
                         case ';':                                       //doesn't have a state
                             CompilerManager.instance.setState(144);
@@ -177,13 +218,15 @@ namespace lexical_analyzer.Models
                     {
                         if (!identifier.isValid(word, compilerManager.state))
                         {
-                            compilerManager.scannerMessages.Add("Token Text: " + word + "\tToken Type: Not Matched Token");
+                            compilerManager.scannerMessages.Add("Error in Token Text: " + word);
+                            errorCounter++;
                         }
                     }
                     compilerManager.isIdintfire = true;
                     word = "";
                 }
             }
+            compilerManager.scannerMessages.Add("Total number of Errors: " + errorCounter);
         }  
     }
 }
