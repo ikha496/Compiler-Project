@@ -22,16 +22,16 @@ namespace lexical_analyzer.Controllers
 
         public IActionResult Type() 
         {
-            ReadFile read = new ReadFile();
+            FileContent read = new FileContent();
             ViewBag.result = new string[] { " " };
             return View(read);
         }
 
         [HttpPost]
-        public IActionResult Type(ReadFile readFile)
+        public IActionResult Type(FileContent readFile)
         {
             Scanner scanner = new Scanner();
-            scanner.codeFile = readFile.FileContent;
+            scanner.fileContent = readFile.fileContent;
             scanner.initScanner();
             scanner.Scan();
             if (scanner.compilerManager.scannerMessages != null) 
@@ -58,7 +58,7 @@ namespace lexical_analyzer.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new ErrorViewer { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
