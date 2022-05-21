@@ -1,4 +1,4 @@
-﻿@model lexical_analyzer.Models.ReadFile
+﻿@model lexical_analyzer.Models.FileContent
 
 @{
     ViewData["Title"] = "Type";
@@ -32,9 +32,9 @@
                             <div class="nmbers col-lg-1"></div>
 
                             <div class="inputType col-lg-10">
-                                @if (Model.FileContent != null)
+                                @if (Model.fileContent != null)
                                 {
-                                    <textarea type="" name="FileContent">@Model.FileContent</textarea>
+                                    <textarea type="" name="FileContent">@Model.fileContent</textarea>
                                 }else
                                 {
                                     <textarea type="" name="FileContent"></textarea>
@@ -59,7 +59,7 @@
 
     <!--start error section-->
 
-    <div class="erorr">
+    <div class="erorr" style="background-color: white">
                
         @foreach(var line in ViewBag.result)
         {
